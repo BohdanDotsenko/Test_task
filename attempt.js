@@ -12,7 +12,7 @@ function attempt(available, allowed, preferred) {
             }
         }
     }
-    else                            // if 'any' element is found in allowed than available == valid
+    else     // if 'any' element is found in allowed than available == valid
         valid = available;          
     if (preferred.includes('any')){ 
         // if 'any' element is found in preferred than all valid numbers are preferred
